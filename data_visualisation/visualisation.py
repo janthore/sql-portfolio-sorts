@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-engine = create_engine("postgresql://postgres:Abcd!234@localhost:5432/postgres") #TODO: Delete the server entry
+engine = create_engine("postgresql://postgres:password@localhost:5432/postgres") #TODO: Delete the server entry
 
 with open("SQL_sorts\BIvariate_Depentend_Sort_time_series.sql", "r") as f:
     query = f.read()
